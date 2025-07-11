@@ -3,7 +3,7 @@ name: Infrastructure Deployment
 on:
   push:
     branches: [ "main" ]
-
+    
 jobs:
   deploy:
     name: Terraform settings
