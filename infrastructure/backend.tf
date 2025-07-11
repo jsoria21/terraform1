@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
-    storage_account_name = "storagesample01"
-    container_name       = "webappstate"
+    storage_account_name = "DevsEnvironment"
+    container_name       = "storagesample01"
     key                  = "stateActions.tfstate"
   }
 }
